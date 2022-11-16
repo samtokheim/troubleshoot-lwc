@@ -12,7 +12,8 @@ export default class Display extends LightningElement {
   }
   
   handleAugmentorChange(event) {
-    this.augmentor = event.target.value;
+    //this.augmentor = event.target.value;
+    this.augmentor = parseInt(event.target.value);
   }
 
   handleIncrement(event) {
